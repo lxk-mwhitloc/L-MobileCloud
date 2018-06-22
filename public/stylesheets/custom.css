@@ -1,0 +1,9 @@
+.glyph-lg {
+  font-size: 8.0em;
+  border: none;
+}
+
+.borderless td, .borderless th {
+  border: none !important;
+    padding: 0px !important;
+}
