@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lexmark Mobile Cloud</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <% include ../partials/header.ejs %>
+
+  <link rel="stylesheet" type="text/css" href="/stylesheets/navbar-top-fixed.css" />
+  </head>
+
+</head>
+
+<body>
+
+      <% include ../partials/nav.ejs %>
+
+      <div class="container">
+        <div>
+          <table id="mytb" class="table table-hover table-condensed">
+              <thead>
+              </thead>
+              <tbody>
+                  <tr>
+                    <td><button href="#" type="button" class="btn btn-default col-lg-2"><img src="status.png"/></button><br/>
+                      <label>Status</label>
+                    </td>
+                    <td><button onclick="javascript:location.href='jobs'" href="#" type="button" class="btn btn-default col-lg-2"><img src="security.png"/></button><br/>
+                      <label>Security</label>
+                    </td>
+                  </tr>
+                  <tr>
+                      <td><button href="#" type="button" class="btn btn-default col-lg-2"><img src="paper.png"/></button><br/>
+                        <label>Paper</label>
+                      </td>
+                      <td><button href="#" type="button" class="btn btn-default col-lg-2"><img src="device.png"/></button><br/>
+                        <label>Device</label>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td><button href="#" type="button" class="btn btn-default col-lg-2"><img src="addressbook.png"/></button><br/>
+                        <label>Address Book</label>
+                      </td>
+                      <td><button href="#" type="button" class="btn btn-default col-lg-2"><img src="bookmarks.png"/></button><br/>
+                        <label>Bookmarks</label>
+                      </td>
+                  </tr>
+              </tbody>
+          </table>
+      </div> <!-- /container -->
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lexmark Mobile Cloud</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <% include ../partials/header.ejs %>
+
+  <link rel="stylesheet" type="text/css" href="/stylesheets/navbar-top-fixed.css" />
+</head>
+
+<body>
+
+    <% include ../partials/nav.ejs %>
+
+    <div class="container">
+
+      <div class="toolbar toolbar-lg">
+        <button class="btn btn-default btn-lg" id type="button" href="print" role="button">
+          <span class="glyphicon icon-upload text-primary"></span>  Upload
+        </button>
+        <button class="btn btn-default btn-lg" id type="button" href="print" role="button">
+          <span class="glyphicon icon-delete text-primary"></span>  Delete
+        </button>
+        <button class="btn btn-default btn-lg" id type="button" href="Upload" role="button">
+          <span class="glyphicon icon-print text-primary"></span>  Print
+        </button>
+      </div>
+
+      <div>
+        <table id="mytb" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th style="width: 10%;"></th>
+                    <th style="width: 90%">Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="vcenter"><input type="checkbox" id="blahA" value="1"/></td>
+                    <td>My World Domination Plan.ppt</td>
+                </tr>
+                <tr>
+                  <td class="vcenter"><input type="checkbox" id="blahA" value="1"/></td>
+                  <td>Thank you note to Grandma.doc</td>
+                </tr>
+                <tr>
+                  <td class="vcenter"><input type="checkbox" id="blahA" value="1"/></td>
+                  <td>2023 Mobile Strategy.pdf</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+      <br/>
+      <div class="toolbar toolbar-lg">
+        <button class="btn btn-default btn-lg" id type="button" href="print" role="button" onclick="javascript:location.href='print'">
+          <span class="glyphicon icon-print text-primary"></span>  Print</button>
+      </div>
+      </div> <!-- /container -->
+
+</body>
+</html>

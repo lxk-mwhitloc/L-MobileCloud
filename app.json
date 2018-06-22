@@ -1,0 +1,6 @@
+{
+  "name": "L Mobile Cloud",
+  "description": "L Mobile Cloud",
+  "keywords": ["node", "express", "static"],
+  "image": "heroku/nodejs"
+}
