@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "L-MobileCloud threat model",
+    "owner": "Whitlock",
+    "description": "Lexmark mobile cloud app"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Whitlock"
+  }
+}
